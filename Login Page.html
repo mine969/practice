@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-
     <div class="main">
       <div class="logo-container">
-        <img src="assests\Burma Link logo.png" />
-        <span>Burma Link Channel</span><br />
+        <div class="row">
+          <img src="assests\Burma Link logo.png" />
+          <span id="srr">Burma Link Channel</span>
+        </div>
+
         <img src="assests\undraw_mobile_content_xvgr.svg" />
       </div>
 
@@ -22,12 +24,17 @@
           <input type="text" id="email" name="email" /><br />
           <label for="Password">Password:</label><br />
           <input type="text" id="pass" name="pass" /><br />
-          <input type="checkbox" id="rem" />Remember Me<br />
-          <button type="sumit" id="sign-in">Sign in</button><br />
+
+          <div class="remember">
+            <input type="checkbox" id="rem" />
+            <label for="rem">Remember Me</label><br />
+          </div>
+          <div class="signin">
+            <button type="sumit" id="sign">Sign in</button>
+          </div>
+
           <p id="forgot">Forgot Password</p>
         </form>
-
-
       </div>
     </div>
   </body>

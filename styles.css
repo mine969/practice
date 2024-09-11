@@ -20,6 +20,11 @@ body {
   width: 80%;
 }
 
+
+/*
+Logo Part
+*/
+
 .logo-container {
   display: flex;
   flex-direction: column;
@@ -31,15 +36,86 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.row{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 .logo-container span {
-  float: inline-start;
+  display: inline-block;
   margin-top: 10px;
   font-size: 1.5rem;
   font-weight: bold;
 }
+
+/*
+Form Part
+*/
 .form-container {
   background-color: #191939;
   padding: 30px;
   border-radius: 20px;
   width: 40%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #e0e0f0;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c2c54;
+  color: white;
+}
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#forgot {
+  text-align: center;
+  margin-top: 20px;
+  color: #d1d1f7;
+  cursor: pointer;
+}
+.remember {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+
+label[for="rem"] {
+  display: inline-block;
+  color: #e0e0f0;
+  vertical-align: middle;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.signin{
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  width: auto;
+  padding: 12px 20px;
+  background-color: #6a63f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
 }
