@@ -60,7 +60,7 @@ Form Part
   background-color: #191939;
   padding: 30px;
   border-radius: 20px;
-
+  min-width: 450px;
 }
 
 label {
