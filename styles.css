@@ -18,7 +18,6 @@ body {
   align-items: center;
   justify-content: space-between;
   min-width: 80%;
-  max-width: 1200px;
 }
 
 
@@ -26,46 +25,42 @@ body {
 Logo Part
 */
 
-.logo-container {
+.left-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-width: 50%;
-  max-width: 100%;
 }
 
-.logo-container img {
+.left-container img {
   max-width: 100%;
   height: auto;
   min-width:45%;
   max-width: 100%;
 }
 
-.row{
+.left-upper{
   display: flex;
   align-items: center;
   margin-bottom: 20px;
   
 }
 
-.logo-container span {
+.left-container span {
   margin-top: 10px;
   font-size: 1.5rem;
-  min-width:100%;
-  max-width: 100%;
 }
 
 /*
 Form Part
 */
 
-.form-container {
+.right-container {
   background-color: #191939;
   padding: 30px;
   border-radius: 20px;
-  min-width: 350px;
-  max-width: 100%;
+
 }
 
 label {
@@ -124,5 +119,4 @@ button {
   border: none;
   border-radius: 5px;
   font-size: 1rem;
-  cursor: pointer;
 }
