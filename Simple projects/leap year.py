@@ -4,7 +4,6 @@ def checkyear(year):
     else :
         (print("Not a leap year"))
         
-    
 
 #mock data
 year=int(input("Input to check Check Leap Year"))
